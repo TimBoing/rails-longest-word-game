@@ -1,0 +1,72 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1, p, a {
+  font-family: FreightSansPro, Helvetica, sans-serif;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.letters-container {
+  width: 500px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.letter {
+  font-family: FreightSansPro, Helvetica, sans-serif;
+  width: 40px;
+  height: 40px;
+  background-color: #3398DB;
+  color:white;
+  font-size: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.myForm {
+  width: 500px;
+  height: 40px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.text-input {
+  font-family: FreightSansPro, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  width: 80%;
+  height: 90%;
+  border: 1px solid #EEEEEE;
+  border-radius: 4px 0 0 4px;
+  box-shadow: 1px 1px 2px rgb(180,180,180);
+  padding-left: 10px;
+}
+
+.submit-btn {
+  font-family: FreightSansPro, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: #EEEEEE;
+  color: white;
+  text-shadow: 1px 1px 2px rgb(40,40,40);
+  box-shadow: 1px 1px 2px rgb(180,180,180);
+  width: 20%;
+  height: 100%;
+  border: 1px solid #EEEEEE;
+  border-radius: 0 4px 4px 0;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+}
