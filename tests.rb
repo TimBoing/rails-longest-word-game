@@ -14,10 +14,10 @@
 require 'open-uri'
 require 'json'
 
-def is_english?(word)
-  uri_request = open("https://wagon-dictionary.herokuapp.com/#{word}").read
-  doc = JSON.parse(uri_request)
-  return doc["found"].class
+def is_english?
+  uri_request = open("https://fr.wikipedia.org/wiki/Wagon").read
+  #doc = JSON.parse(uri_request)
+  return uri_request
 end
 
-puts is_english?("test")
+puts is_english?
